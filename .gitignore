@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
+linear_regression_salary
+
 # Distribution / packaging
 .Python
 build/
