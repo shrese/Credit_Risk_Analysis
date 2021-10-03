@@ -7,6 +7,8 @@ __pycache__/
 *.so
 
 linear_regression_salary
+LoanStats_2019Q1.csv
+Module-17-Challenge-Resources.zip
 
 # Distribution / packaging
 .Python
