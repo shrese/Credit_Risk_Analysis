@@ -19,37 +19,37 @@ A very large data set was utilized to create the machine learning tool.  The dat
 * Precision for high risk loans is low at 0.01 and high for the low risk loans at 1.00.  This is comparable to the F1 scores at 0.02 and 0.78, respectively.  
 
 
-![](Module-17-Challenge-Resources\Resources\RandomOverSampler_accuracy.PNG)
+![](Module-17-Challenge-Resources/Resources/RandomOverSampler_accuracy.PNG)
 
-![](Module-17-Challenge-Resources\Resources\RandomOverSampler_confusion.PNG)
+![](Module-17-Challenge-Resources/Resources/RandomOverSampler_confusion.PNG)
 
-![](Module-17-Challenge-Resources\Resources\RandomOverSampler_imbalanced.PNG)
+![](Module-17-Challenge-Resources/Resources/RandomOverSampler_imbalanced.PNG)
 
 ### SMOTE 
 * Balance Accuracy Score
 * Precision & Recall Scores
 
-![](Module-17-Challenge-Resources\Resources\SMOTE_accuracy.PNG)
+![](Module-17-Challenge-Resources/Resources/SMOTE_accuracy.PNG)
 
-![](Module-17-Challenge-Resources\Resources\SMOTE_confusion.PNG)
+![](Module-17-Challenge-Resources/Resources/SMOTE_confusion.PNG)
 
-![](Module-17-Challenge-Resources\Resources\SMOTE_imbalanced.PNG)
+![](Module-17-Challenge-Resources/Resources/SMOTE_imbalanced.PNG)
 
 ### ClusterCentroids
 
-![](Module-17-Challenge-Resources\Resources\ClusterCentroids_accuracy.PNG)
+![](Module-17-Challenge-Resources/Resources/ClusterCentroids_accuracy.PNG)
 
-![](Module-17-Challenge-Resources\Resources\ClusterCentroids_confusion.PNG)
+![](Module-17-Challenge-Resources/Resources/ClusterCentroids_confusion.PNG)
 
-![](Module-17-Challenge-Resources\Resources\ClusterCentroids_imbalanced.PNG)
+![](Module-17-Challenge-Resources/Resources/ClusterCentroids_imbalanced.PNG)
 
 ### SMOTEENN
 
-![](Module-17-Challenge-Resources\Resources\smoteenn_accuracy.PNG)
+![](Module-17-Challenge-Resources/Resources/smoteenn_accuracy.PNG)
 
-![](Module-17-Challenge-Resources\Resources\smoteenn_confusion.PNG)
+![](Module-17-Challenge-Resources/Resources/smoteenn_confusion.PNG)
 
-![](Module-17-Challenge-Resources\Resources\smoteenn_imbalanced.PNG)
+![](Module-17-Challenge-Resources/Resources/smoteenn_imbalanced.PNG)
 
 
 
