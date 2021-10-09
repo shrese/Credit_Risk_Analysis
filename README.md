@@ -14,7 +14,8 @@ A very large data set was utilized to create the machine learning tool.  The dat
 * Over/Undersampling using the SMOTEENN algorithm.
 * Compare two machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier.
 
-![](Module-17-Challenge-Resources/Resources/model_outputs.PNG)
+
+  ![](Module-17-Challenge-Resources/Resources/model_outputs.PNG)
 
 * Balance Accuracy Score  for all three models is low ranging from 51% to 65%.
 
@@ -22,8 +23,7 @@ A very large data set was utilized to create the machine learning tool.  The dat
 
 * Across all models are the same with a precision score for high risk customers at 1% and low risk customers at 100%.  This is interesting when comparing to the f1 score as the models are all comparable to each other except for ClusterCentroids.  The low risk customers are at 60% on the CLusterCentroids whit the other models are 70%+ range.   
 
-There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models
-
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+## Summary
+: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
 
 There is a recommendation on which model to use, or there is no recommendation with a justification
