@@ -1,4 +1,4 @@
-# Credit Risk Analysis - Machine Learning
+# Credit Risk Analysis - Supervised Machine Learning
 
 ## Overview
  Fast Lending, a peer to peer lending services company wants to use machine learning to predict credit risk.  The leaders believe that this will provide a quicker and more reliable loan experience.  The assumption is that supervised machine learning will lead to a more accurate indentification of good candidates for loans and further lead to lower default rates.  
@@ -14,45 +14,13 @@ A very large data set was utilized to create the machine learning tool.  The dat
 * Over/Undersampling using the SMOTEENN algorithm.
 * Compare two machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier.
 
-### RandomOverSampler
-* Balance Accuracy Score is low at 0.651
-* Precision for high risk loans is low at 0.01 and high for the low risk loans at 1.00.  This is comparable to the F1 scores at 0.02 and 0.78, respectively.  
+![](Module-17-Challenge-Resources/Resources/model_outputs.PNG)
 
+* Balance Accuracy Score  for all three models is low ranging from 51% to 65%.
 
-![](Module-17-Challenge-Resources/Resources/RandomOverSampler_accuracy.PNG)
+* The Confusion Matrix for the ClusterCentroids and SMOTEENN models were more accurate than the RandomOverSampler and SMOTE models with accurate results of 9,681.  The results for high risk customers was comparable across all four models with ~50 that were predicted to be high risk and were.
 
-![](Module-17-Challenge-Resources/Resources/RandomOverSampler_confusion.PNG)
-
-![](Module-17-Challenge-Resources/Resources/RandomOverSampler_imbalanced.PNG)
-
-### SMOTE 
-* Balance Accuracy Score
-* Precision & Recall Scores
-
-![](Module-17-Challenge-Resources/Resources/SMOTE_accuracy.PNG)
-
-![](Module-17-Challenge-Resources/Resources/SMOTE_confusion.PNG)
-
-![](Module-17-Challenge-Resources/Resources/SMOTE_imbalanced.PNG)
-
-### ClusterCentroids
-
-![](Module-17-Challenge-Resources/Resources/ClusterCentroids_accuracy.PNG)
-
-![](Module-17-Challenge-Resources/Resources/ClusterCentroids_confusion.PNG)
-
-![](Module-17-Challenge-Resources/Resources/ClusterCentroids_imbalanced.PNG)
-
-### SMOTEENN
-
-![](Module-17-Challenge-Resources/Resources/smoteenn_accuracy.PNG)
-
-![](Module-17-Challenge-Resources/Resources/smoteenn_confusion.PNG)
-
-![](Module-17-Challenge-Resources/Resources/smoteenn_imbalanced.PNG)
-
-
-
+* Across all models are the same with a precision score for high risk customers at 1% and low risk customers at 100%.  This is interesting when comparing to the f1 score as the models are all comparable to each other except for ClusterCentroids.  The low risk customers are at 60% on the CLusterCentroids whit the other models are 70%+ range.   
 
 There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models
 
