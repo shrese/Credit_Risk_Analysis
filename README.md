@@ -16,7 +16,7 @@ A very large data set was utilized to create the machine learning tool.  The dat
 
 *Resampling*
 
-![](Module-17-Challenge-Resources/Resources/model_outputs.PNG)
+   ![](Module-17-Challenge-Resources/Resources/model_outputs.PNG)
 
 * Balance Accuracy Score  for all three models is low ranging from 51% to 65%.
 
@@ -26,7 +26,7 @@ A very large data set was utilized to create the machine learning tool.  The dat
 
 *Ensemble*
 
-![](Module-17-Challenge-Resources/Resources/ensemble_outputs.PNG)
+   ![](Module-17-Challenge-Resources/Resources/ensemble_outputs.PNG)
 
 * The Balance Accuracy scores for the ensemble models are higher than the resampling at 78% for the BalancedRandomForestClassifier and 92% for the EasyEnsembleClassifier.
 * The Confusion Matrix results for the ensemble models are not comparable to the other models or each other.  The accuracy of the BalancedRandomForestClassifier is very low with 58 for the high risk customers and 1,560 for the low risk customers. The accuracy for the EasyEnsembleClassifier has mixed results with high accuracy for high risk customers and low accuracy for low risk customers.
