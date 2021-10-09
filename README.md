@@ -9,7 +9,7 @@ The analysis includes several different models using them to compare the strengt
 
  
 ## Results
-A very large data set was utilized to create the machine learning tool.  The data was first divided into a training and testing set so that we are able to test the accuracy of the model.  Once the data was split sampling models were used to analyze the data utilizing:
+A very large data set was utilized to create the machine learning tool.  The data was first divided into a training and testing sets so that we are able to test the accuracy of the model.  Once the data was split sampling models were used to analyze the data utilizing:
 
 * Oversampling by using the RandomOverSampler and SMOTE algorithms.
 * Undersampling by using the ClusterCentroids algorithm.
