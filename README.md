@@ -17,7 +17,7 @@ A very large data set was utilized to create the machine learning tool.  The dat
 * Finally, compare two machine learning models that should reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier.
 
 *Sampling*
-   ![](Module-17-Challenge-Resources/Resources/model_outputs.PNG)
+![](Module-17-Challenge-Resources/Resources/model_outputs.PNG)
 
 * Balance Accuracy Score for all four models is low ranging from 51% to 65%.
 * The Confusion Matrix for the ClusterCentroids and SMOTEENN models were less accurate than the RandomOverSampler and SMOTE models for low-risk customers with accurate results of 7,737 compared to 10,000+ on the other two models. The results for high-risk customers were comparable across all four models with ~50 that were predicted to be high-risk and were high-risk.
@@ -25,7 +25,6 @@ A very large data set was utilized to create the machine learning tool.  The dat
  
 
 *Ensemble*
-
    ![](Module-17-Challenge-Resources/Resources/ensemble_outputs.PNG)
 
 * The Confusion Matrix results for the ensemble models are not comparable to the other models with a higher accuracy than the resampling models, which is also evident in the Balance Accuracy scores at 78% for the BalancedRandomForestClassifier and 92% for the EasyEnsembleClassifier.
