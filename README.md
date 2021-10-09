@@ -17,6 +17,7 @@ A very large data set was utilized to create the machine learning tool.  The dat
 * Finally, compare two machine learning models that should reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier.
 
 *Sampling*
+
 ![](Module-17-Challenge-Resources/Resources/model_outputs.PNG)
 
 * Balance Accuracy Score for all four models is low ranging from 51% to 65%.
@@ -25,6 +26,7 @@ A very large data set was utilized to create the machine learning tool.  The dat
  
 
 *Ensemble*
+
    ![](Module-17-Challenge-Resources/Resources/ensemble_outputs.PNG)
 
 * The Confusion Matrix results for the ensemble models are not comparable to the other models with a higher accuracy than the resampling models, which is also evident in the Balance Accuracy scores at 78% for the BalancedRandomForestClassifier and 92% for the EasyEnsembleClassifier.
