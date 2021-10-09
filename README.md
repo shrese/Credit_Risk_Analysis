@@ -14,14 +14,24 @@ A very large data set was utilized to create the machine learning tool.  The dat
 * Over/Undersampling using the SMOTEENN algorithm.
 * Compare two machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier.
 
+*Resampling*
 
-  ![](Module-17-Challenge-Resources/Resources/model_outputs.PNG)
+![](Module-17-Challenge-Resources/Resources/model_outputs.PNG)
 
 * Balance Accuracy Score  for all three models is low ranging from 51% to 65%.
 
 * The Confusion Matrix for the ClusterCentroids and SMOTEENN models were more accurate than the RandomOverSampler and SMOTE models with accurate results of 9,681.  The results for high risk customers was comparable across all four models with ~50 that were predicted to be high risk and were.
 
-* Across all models are the same with a precision score for high risk customers at 1% and low risk customers at 100%.  This is interesting when comparing to the f1 score as the models are all comparable to each other except for ClusterCentroids.  The low risk customers are at 60% on the CLusterCentroids whit the other models are 70%+ range.   
+* Across all models are the same with a precision score for high risk customers at 1% and low risk customers at 100%.  This is interesting when comparing to the f1 score as the models are all comparable to each other except for ClusterCentroids.  The low risk customers are at 60% on the CLusterCentroids with the other models are 70%+ range.   
+
+*Ensemble*
+
+![](Module-17-Challenge-Resources/Resources/ensemble_outputs.PNG)
+
+* The Balance Accuracy scores for the ensemble models are higher than the resampling at 78% for the BalancedRandomForestClassifier and 92% for the EasyEnsembleClassifier.
+* The Confusion Matrix results for the ensemble models are not comparable to the other models or each other.  The accuracy of the BalancedRandomForestClassifier is very low with 58 for the high risk customers and 1,560 for the low risk customers. The accuracy for the EasyEnsembleClassifier has mixed results with high accuracy for high risk customers and low accuracy for low risk customers.
+* The Precision Scores for these models are similar to the other models; however, a little better for the high risk loans.  The f1 scores for these models is better with an average of 95% and 97%, respectively.
+
 
 ## Summary
 : Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
